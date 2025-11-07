@@ -1,1 +1,15 @@
-"Hello World"
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的博客</title>
+</head>
+<body>
+    <h1>欢迎来到我的博客！</h1>
+    <p>这是通过 GitHub Pages 搭建的个人网站。</p>
+    <p>现在时间：<span id="time"></span></p>
+    
+    <script>
+        document.getElementById('time').textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>
